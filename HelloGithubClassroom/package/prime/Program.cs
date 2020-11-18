@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Numerics;
 
 namespace HelloGithubClassroom
 {
@@ -56,7 +53,7 @@ namespace HelloGithubClassroom
         
         
 
-        public static bool IsPrime(object numberPassed)
+        private static bool IsPrime(object numberPassed)
         {
             var number = 0L;
             number = (long) numberPassed;
@@ -83,12 +80,7 @@ namespace HelloGithubClassroom
                 {
                     Console.WriteLine($"Prime number: {enumerator.Current}");
                 }
-                
-                
             }
-            
-            
-            
         }
     }
 
