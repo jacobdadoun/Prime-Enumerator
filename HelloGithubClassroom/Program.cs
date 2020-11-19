@@ -14,8 +14,6 @@ namespace HelloGithubClassroom
 
         public bool MoveNext()
         {
-
-
             if (Current == 100) // <-- Set limit here
             {
                 Console.WriteLine("--reached long overflow--");
